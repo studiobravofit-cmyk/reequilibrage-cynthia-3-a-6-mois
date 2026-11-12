@@ -47,6 +47,7 @@ if(document.body)start();else document.addEventListener('DOMContentLoaded',start
 
 
 
+
 <meta name="robots" content="noindex, nofollow, noarchive">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
@@ -279,13 +280,13 @@ tr:last-child td{border:0}
 <div class="kicker">Point de départ</div>
 <h2 class="title">Ton profil</h2><div class="rule"></div>
 <div class="card profile">
-<div class="chips"><span class="chip">Cynthia · 35 ans</span><span class="chip">1,61 m</span><span class="chip">60,8 kg</span><span class="chip">Objectif 57 kg</span><span class="chip gold">Ton poids de forme</span><span class="chip gold">Mange de tout · aucune allergie</span><span class="chip gold">1 séance par semaine au studio</span><span class="chip gold">Suivi 3 à 6 mois</span></div>
-<p>Tu manges de tout et tu n'as aucune allergie : ton programme garde donc toute la variété, sans aliment interdit. On se voit une fois par semaine au studio, et on précisera ensemble ton quotidien (plutôt assis ou plutôt actif) pour ajuster ton maintien si besoin.</p>
+<div class="chips"><span class="chip">Cynthia · 35 ans</span><span class="chip">1,61 m</span><span class="chip">60,8 kg</span><span class="chip">Objectif 57 kg</span><span class="chip gold">Ton poids de forme</span><span class="chip gold">Mange de tout · aucune allergie</span><span class="chip gold">Travail sédentaire</span><span class="chip gold">1 séance par semaine au studio</span><span class="chip gold">Suivi 3 à 6 mois</span></div>
+<p>Tu manges de tout et tu n'as aucune allergie : ton programme garde donc toute la variété, sans aliment interdit. Ton travail est sédentaire et on se voit une fois par semaine au studio : ton programme est calculé sur cette base, et la marche du quotidien devient ton alliée.</p>
 <p>Ton objectif : passer de 60,8 kg à 57 kg, ton poids de forme, avec des repères à 59 kg puis 58 kg. On se suit 3 mois, et si tout roule, on continue jusqu'à 6 mois pour atteindre et stabiliser ton poids, en mangeant bien. L'idée est de garder ton muscle et ta tonicité, pas seulement de voir la balance descendre.</p>
 <div class="grid g4 stats" style="margin-top:18px">
 <div class="stat"><b>23,5</b><span>IMC de départ</span></div>
 <div class="stat"><b>≈ 1 278</b><span>kcal métabolisme (estimé)</span></div>
-<div class="stat"><b>≈ 1 758</b><span>kcal maintien</span></div>
+<div class="stat"><b>≈ 1 534</b><span>kcal maintien</span></div>
 <div class="stat"><b>−3,8 kg</b><span>pour atteindre 57 kg</span></div>
 </div>
 </div>
@@ -326,21 +327,21 @@ tr:last-child td{border:0}
 <h2 class="title">Ton maintien, tes paliers, ton plafond</h2><div class="rule"></div>
 <p class="lead">On commence en douceur pour mettre en place une vraie structure, puis le déficit augmente petit à petit, palier par palier.</p>
 <div class="levels">
-<div class="level lv1"><small>MAINTIEN</small><b>1 758 kcal</b><p>Ton poids reste stable avec une activité légère et ta séance au studio.</p></div>
-<div class="level lv2"><small>RESET · POINT DE DÉPART</small><b>1 658 kcal</b><p>−100 kcal pour démarrer en douceur.</p></div>
-<div class="level lv3"><small>PLAFOND DU DÉFICIT</small><b>1 358 kcal</b><p>−400 kcal, jamais plus. Toujours au-dessus de ton métabolisme.</p></div>
+<div class="level lv1"><small>MAINTIEN</small><b>1 534 kcal</b><p>Ton poids reste stable avec ton quotidien sédentaire et ta séance au studio.</p></div>
+<div class="level lv2"><small>RESET · POINT DE DÉPART</small><b>1 434 kcal</b><p>−100 kcal pour démarrer en douceur.</p></div>
+<div class="level lv3"><small>PLAFOND DU DÉFICIT</small><b>1 284 kcal</b><p>−250 kcal, jamais plus. Toujours au-dessus de ton métabolisme.</p></div>
 </div>
 <div class="formula">
 <h3>Comment j'ai calculé</h3>
 <p><b>1. Métabolisme de base</b> (formule de Mifflin-St Jeor, femme) : 10 × 60,8 + 6,25 × 161 − 5 × 35 − 161 = <b>1 278,25 kcal</b>, soit environ 1 278 kcal par jour.</p>
-<p><b>2. Maintien</b> : 1 278 × 1,375, pour une activité légère avec ta séance au studio = <b>≈ 1 758 kcal</b>. Je l'ajuste dès qu'on connaît mieux ton quotidien.</p>
-<p><b>3. Un déficit en crescendo</b> : −100, −150, −200, −250, −300, −350, puis −400 au maximum, chaque palier séparément.</p>
-<p><b>Ma règle pour toi</b> : je ne descends jamais ton alimentation sous ton métabolisme de base. Le palier maximum s'arrête à −400 kcal, jamais plus : même là, tu restes à 1 358 kcal.</p>
+<p><b>2. Maintien</b> : 1 278 × 1,2, pour un quotidien sédentaire avec une séance par semaine = <b>≈ 1 534 kcal</b>.</p>
+<p><b>3. Un déficit en crescendo</b> : −100, −125, −150, −175, −200, −225, puis −250 au maximum, chaque palier séparément.</p>
+<p><b>Ma règle pour toi</b> : je ne descends jamais ton alimentation sous ton métabolisme de base. Le palier maximum s'arrête à −250 kcal, jamais plus : même là, tu restes à 1 284 kcal.</p>
 </div>
 <div class="card sim">
 <div class="row"><h3 style="margin:0">Visualise tes macros</h3>
 <div class="seg" id="seg"><button data-k="m">Maintien</button><button data-k="r" class="on">Reset</button><button data-k="p1">P1</button><button data-k="p2">P2</button><button data-k="p3">P3</button><button data-k="p4">P4</button><button data-k="p5">P5</button><button data-k="p6">P6</button></div></div>
-<div style="margin-top:14px"><span class="big" id="kcal">1 658</span> <span style="color:var(--muted);font-weight:700">kcal / jour</span></div>
+<div style="margin-top:14px"><span class="big" id="kcal">1 434</span> <span style="color:var(--muted);font-weight:700">kcal / jour</span></div>
 <div class="bars">
 <div class="bar"><label><span>Protéines</span><span id="bp"></span></label><div class="track"><div class="fill" id="fp" style="background:var(--wine)"></div></div></div>
 <div class="bar"><label><span>Glucides</span><span id="bg"></span></label><div class="track"><div class="fill" id="fg" style="background:var(--gold)"></div></div></div>
@@ -356,32 +357,32 @@ tr:last-child td{border:0}
 <h2 class="title">Tes paliers, étape par étape</h2><div class="rule"></div>
 <p class="lead">Chaque palier est daté, avec ses macros exactes. On ne passe au suivant que si tout se passe bien : faim maîtrisée, énergie stable, sommeil correct, récupération satisfaisante, envie intacte.</p>
 <div class="timeline">
-<div class="step"><div class="card"><div class="meta">JOURS 1 À 7 · 1 658 KCAL</div><h4>Reset · −100 kcal</h4><p>100 g protéines · 50 g lipides · 202 g glucides. On remet en place des repas structurés et des horaires réguliers, sans encore chercher la perte rapide.</p></div></div>
-<div class="step"><div class="card"><div class="meta">JOURS 8 À 22 · 1 608 KCAL</div><h4>Palier 1 · −150 kcal</h4><p>99 g protéines · 48 g lipides · 195 g glucides. Palier de transition, encore très confortable.</p></div></div>
-<div class="step"><div class="card"><div class="meta">JOURS 23 À 37 · 1 558 KCAL</div><h4>Palier 2 · −200 kcal</h4><p>98 g protéines · 47 g lipides · 186 g glucides. On ne passe à ce palier que si le précédent a été bien toléré.</p></div></div>
-<div class="step"><div class="card"><div class="meta">JOURS 38 À 52 · 1 508 KCAL</div><h4>Palier 3 · −250 kcal</h4><p>97 g protéines · 45 g lipides · 179 g glucides. Palier plus exigeant, à ne tenir que si faim et énergie restent bonnes.</p></div></div>
-<div class="step"><div class="card"><div class="meta">JOURS 53 À 67 · 1 458 KCAL</div><h4>Palier 4 · −300 kcal</h4><p>96 g protéines · 43 g lipides · 172 g glucides. On surveille attentivement ta récupération.</p></div></div>
-<div class="step"><div class="card"><div class="meta">JOURS 68 À 82 · 1 408 KCAL</div><h4>Palier 5 · −350 kcal</h4><p>95 g protéines · 41 g lipides · 165 g glucides. Avant-dernier palier, tenu uniquement si tout reste stable.</p></div></div>
-<div class="step"><div class="card"><div class="meta">À PARTIR DU JOUR 83, JUSQU'À L'OBJECTIF · 1 358 KCAL</div><h4>Palier 6 · plafond · −400 kcal</h4><p>95 g protéines · 39 g lipides · 157 g glucides. C'est le palier le plus bas de ton programme. Il est maintenu jusqu'à ton objectif final.</p></div></div>
+<div class="step"><div class="card"><div class="meta">JOURS 1 À 7 · 1 434 KCAL</div><h4>Reset · −100 kcal</h4><p>100 g protéines · 45 g lipides · 157 g glucides. On remet en place des repas structurés et des horaires réguliers, sans encore chercher la perte rapide.</p></div></div>
+<div class="step"><div class="card"><div class="meta">JOURS 8 À 22 · 1 409 KCAL</div><h4>Palier 1 · −125 kcal</h4><p>99 g protéines · 44 g lipides · 154 g glucides. Palier de transition, encore très confortable.</p></div></div>
+<div class="step"><div class="card"><div class="meta">JOURS 23 À 37 · 1 384 KCAL</div><h4>Palier 2 · −150 kcal</h4><p>98 g protéines · 43 g lipides · 151 g glucides. On ne passe à ce palier que si le précédent a été bien toléré.</p></div></div>
+<div class="step"><div class="card"><div class="meta">JOURS 38 À 52 · 1 359 KCAL</div><h4>Palier 3 · −175 kcal</h4><p>97 g protéines · 42 g lipides · 148 g glucides. Palier plus exigeant, à ne tenir que si faim et énergie restent bonnes.</p></div></div>
+<div class="step"><div class="card"><div class="meta">JOURS 53 À 67 · 1 334 KCAL</div><h4>Palier 4 · −200 kcal</h4><p>96 g protéines · 41 g lipides · 145 g glucides. On surveille attentivement ta récupération.</p></div></div>
+<div class="step"><div class="card"><div class="meta">JOURS 68 À 82 · 1 309 KCAL</div><h4>Palier 5 · −225 kcal</h4><p>95 g protéines · 40 g lipides · 142 g glucides. Avant-dernier palier, tenu uniquement si tout reste stable.</p></div></div>
+<div class="step"><div class="card"><div class="meta">À PARTIR DU JOUR 83, JUSQU'À L'OBJECTIF · 1 284 KCAL</div><h4>Palier 6 · plafond · −250 kcal</h4><p>95 g protéines · 39 g lipides · 138 g glucides. C'est le palier le plus bas de ton programme. Il est maintenu jusqu'à ton objectif final.</p></div></div>
 </div>
 <h3 style="margin:22px 0 10px;color:var(--wine)">Tes paliers, un par un</h3>
 <div class="tw"><table>
 <tr><th>Palier</th><th>Calories</th><th>Déficit</th><th>Protéines</th><th>Lipides</th><th>Glucides</th></tr>
-<tr><td>Reset · jours 1 à 7</td><td><b>1 658</b></td><td>−100</td><td>100 g</td><td>50 g</td><td>202 g</td></tr>
-<tr><td>Palier 1 · jours 8 à 22</td><td><b>1 608</b></td><td>−150</td><td>99 g</td><td>48 g</td><td>195 g</td></tr>
-<tr><td>Palier 2 · jours 23 à 37</td><td><b>1 558</b></td><td>−200</td><td>98 g</td><td>47 g</td><td>186 g</td></tr>
-<tr><td>Palier 3 · jours 38 à 52</td><td><b>1 508</b></td><td>−250</td><td>97 g</td><td>45 g</td><td>179 g</td></tr>
-<tr><td>Palier 4 · jours 53 à 67</td><td><b>1 458</b></td><td>−300</td><td>96 g</td><td>43 g</td><td>172 g</td></tr>
-<tr><td>Palier 5 · jours 68 à 82</td><td><b>1 408</b></td><td>−350</td><td>95 g</td><td>41 g</td><td>165 g</td></tr>
-<tr><td>Palier 6 · plafond · à partir du jour 83, jusqu'à l'objectif</td><td><b>1 358</b></td><td>−400</td><td>95 g</td><td>39 g</td><td>157 g</td></tr>
+<tr><td>Reset · jours 1 à 7</td><td><b>1 434</b></td><td>−100</td><td>100 g</td><td>45 g</td><td>157 g</td></tr>
+<tr><td>Palier 1 · jours 8 à 22</td><td><b>1 409</b></td><td>−125</td><td>99 g</td><td>44 g</td><td>154 g</td></tr>
+<tr><td>Palier 2 · jours 23 à 37</td><td><b>1 384</b></td><td>−150</td><td>98 g</td><td>43 g</td><td>151 g</td></tr>
+<tr><td>Palier 3 · jours 38 à 52</td><td><b>1 359</b></td><td>−175</td><td>97 g</td><td>42 g</td><td>148 g</td></tr>
+<tr><td>Palier 4 · jours 53 à 67</td><td><b>1 334</b></td><td>−200</td><td>96 g</td><td>41 g</td><td>145 g</td></tr>
+<tr><td>Palier 5 · jours 68 à 82</td><td><b>1 309</b></td><td>−225</td><td>95 g</td><td>40 g</td><td>142 g</td></tr>
+<tr><td>Palier 6 · plafond · à partir du jour 83, jusqu'à l'objectif</td><td><b>1 284</b></td><td>−250</td><td>95 g</td><td>39 g</td><td>138 g</td></tr>
 </table></div>
 <h3 style="margin:26px 0 10px;color:var(--wine)">Tes repères de poids</h3>
 <div class="grid g3">
-<div class="stat"><b>59 kg</b><span>1er repère · vers la fin du 2e mois</span></div>
-<div class="stat"><b>58 kg</b><span>2e repère · vers le 3e mois</span></div>
-<div class="stat"><b>57 kg</b><span>Objectif final · vers le 4e mois</span></div>
+<div class="stat"><b>59 kg</b><span>1er repère · vers la fin du 3e mois</span></div>
+<div class="stat"><b>58 kg</b><span>2e repère · vers le 4e mois</span></div>
+<div class="stat"><b>57 kg</b><span>Objectif final · vers le 5e mois</span></div>
 </div>
-<div class="formula"><h3>Une estimation honnête</h3><p>Pour perdre 3,8 kg sans t'épuiser, en respectant le plafond de −400 kcal, c'est le rythme réaliste. Ce sont des estimations basées sur un déficit tenu régulièrement : on fait un vrai point à 3 mois, et si tout roule, on continue jusqu'à 6 mois pour atteindre puis stabiliser tes 57 kg.</p></div>
+<div class="formula"><h3>Une estimation honnête</h3><p>Pour perdre 3,8 kg sans t'épuiser, en respectant le plafond de −250 kcal, c'est le rythme réaliste. Comme ton travail est sédentaire, ton déficit reste doux pour ne jamais descendre sous ton métabolisme : c'est pour ça que les 6 mois ont tout leur sens. Ce sont des estimations basées sur un déficit tenu régulièrement : on fait un vrai point à 3 mois, et si tout roule, on continue jusqu'à 6 mois pour atteindre puis stabiliser tes 57 kg.</p></div>
 <div class="callout"><h3>La règle d'ajustement</h3><p>Je ne modifie jamais un palier à la légère : je me base sur la moyenne de ton poids sur plusieurs jours, tes mensurations, tes photos, ta fatigue, ta faim et ton sommeil. Si l'énergie baisse ou si la faim devient difficile, on reste au palier en cours ou on remonte d'un cran.</p></div>
 <div class="card" style="margin-top:14px"><h3>Vers plus d'autonomie</h3><p>Au début, on pèse précisément pour que tu apprennes tes vraies portions. Une fois ces repères intégrés, généralement après 2 à 3 mois de régularité, on remplace petit à petit la pesée par des repères visuels simples : une paume de protéines, une poignée de féculents, une demi-assiette de légumes. Le but : manger correctement sans peser chaque aliment à vie.</p></div>
 </section>
@@ -419,7 +420,7 @@ tr:last-child td{border:0}
 <div class="reset">
 <div class="kicker">Semaine 1</div>
 <h2 class="title" style="margin-bottom:4px">Reset · 7 jours</h2>
-<p class="lead">Ce reset n'est pas une punition : il remet de l'ordre, structure tes repas et installe tes nouveaux réflexes. <b>1 658 kcal · 100 g protéines · 50 g lipides · 202 g glucides.</b></p>
+<p class="lead">Ce reset n'est pas une punition : il remet de l'ordre, structure tes repas et installe tes nouveaux réflexes. <b>1 434 kcal · 100 g protéines · 45 g lipides · 157 g glucides.</b></p>
 <div class="days" id="rdays"></div>
 <div class="card" id="rday"></div>
 <div class="card" style="margin-top:14px"><h3>Hydratation du jour · objectif 2 L</h3><p style="font-size:14px;color:var(--muted)">Touche un verre à chaque fois que tu bois 250 ml. Garde une gourde avec toi toute la journée. Les jours de séance au studio, ajoute un verre ou deux.</p><div class="water" id="water"></div><p style="margin-top:8px;font-weight:800;color:var(--wine)" id="wtxt">0 L sur 2 L</p></div>
@@ -799,7 +800,7 @@ dq();
 <div class="bar"><label><span>Protéines</span><span id="ccp"></span></label><div class="track"><div class="fill" id="ccpf" style="background:var(--wine)"></div></div></div>
 <div class="bar"><label><span>Glucides</span><span id="ccg"></span></label><div class="track"><div class="fill" id="ccgf" style="background:var(--gold)"></div></div></div>
 <div class="bar"><label><span>Lipides</span><span id="ccl"></span></label><div class="track"><div class="fill" id="cclf" style="background:var(--sage)"></div></div></div>
-<select id="ccgoal"><option value="1658">Objectif Reset · 1 658 kcal</option><option value="1608">Palier 1 · 1 608 kcal</option><option value="1558">Palier 2 · 1 558 kcal</option><option value="1508">Palier 3 · 1 508 kcal</option><option value="1458">Palier 4 · 1 458 kcal</option><option value="1408">Palier 5 · 1 408 kcal</option><option value="1358">Palier 6 · plafond · 1 358 kcal</option><option value="1758">Maintien · 1 758 kcal</option></select>
+<select id="ccgoal"><option value="1434">Objectif Reset · 1 434 kcal</option><option value="1409">Palier 1 · 1 409 kcal</option><option value="1384">Palier 2 · 1 384 kcal</option><option value="1359">Palier 3 · 1 359 kcal</option><option value="1334">Palier 4 · 1 334 kcal</option><option value="1309">Palier 5 · 1 309 kcal</option><option value="1284">Palier 6 · plafond · 1 284 kcal</option><option value="1534">Maintien · 1 534 kcal</option></select>
 </div></div>
 </div>
 <div class="card cc" style="margin-top:14px">
@@ -867,7 +868,7 @@ dq();
 </div>
 <h3 style="margin:26px 0 10px;color:var(--wine)">Les bons réflexes, quel que soit l'outil</h3>
 <div class="grid g2">
-<div class="card"><h3>1. Règle tes objectifs</h3><p>Entre les calories et les macros du palier en cours. Au départ : 1 658 kcal, 100 g protéines, 50 g lipides, 202 g glucides. Tu les modifies à chaque nouveau palier.</p></div>
+<div class="card"><h3>1. Règle tes objectifs</h3><p>Entre les calories et les macros du palier en cours. Au départ : 1 434 kcal, 100 g protéines, 45 g lipides, 157 g glucides. Tu les modifies à chaque nouveau palier.</p></div>
 <div class="card"><h3>2. Pèse cru</h3><p>Choisis toujours les fiches « cru » pour la viande, le poisson et les féculents. C'est la clé de la précision.</p></div>
 <div class="card"><h3>3. Scanne</h3><p>Utilise le code-barres pour les produits emballés, c'est plus rapide et plus fiable. Et lis l'étiquette en même temps.</p></div>
 <div class="card"><h3>4. Enregistre tes repas types</h3><p>Sauvegarde tes petits-déjeuners, collations et repas habituels, ou ton muesli maison comme « recette » : tu les ajoutes ensuite en une seconde.</p></div>
@@ -959,14 +960,14 @@ function $(s){return document.querySelector(s)}
 function cnt(o){return Object.keys(o).filter(function(k){return o[k]}).length}
 function toast(t){var el=$('#toast');el.textContent=t;el.classList.add('show');clearTimeout(el._t);el._t=setTimeout(function(){el.classList.remove('show')},2200)}
 
-var L={m:{k:1758,p:100,l:55,g:216,t:"Maintien estimé : ton poids resterait stable. Référence de calcul."},
-r:{k:1658,p:100,l:50,g:202,t:"Reset · jours 1 à 7 : −100 kcal."},
-p1:{k:1608,p:99,l:48,g:195,t:"Palier 1 · jours 8 à 22 : −150 kcal."},
-p2:{k:1558,p:98,l:47,g:186,t:"Palier 2 · jours 23 à 37 : −200 kcal."},
-p3:{k:1508,p:97,l:45,g:179,t:"Palier 3 · jours 38 à 52 : −250 kcal."},
-p4:{k:1458,p:96,l:43,g:172,t:"Palier 4 · jours 53 à 67 : −300 kcal."},
-p5:{k:1408,p:95,l:41,g:165,t:"Palier 5 · jours 68 à 82 : −350 kcal."},
-p6:{k:1358,p:95,l:39,g:157,t:"Palier 6 · plafond · à partir du jour 83, jusqu'à l'objectif : −400 kcal."}};
+var L={m:{k:1534,p:100,l:50,g:171,t:"Maintien estimé : ton poids resterait stable. Référence de calcul."},
+r:{k:1434,p:100,l:45,g:157,t:"Reset · jours 1 à 7 : −100 kcal."},
+p1:{k:1409,p:99,l:44,g:154,t:"Palier 1 · jours 8 à 22 : −125 kcal."},
+p2:{k:1384,p:98,l:43,g:151,t:"Palier 2 · jours 23 à 37 : −150 kcal."},
+p3:{k:1359,p:97,l:42,g:148,t:"Palier 3 · jours 38 à 52 : −175 kcal."},
+p4:{k:1334,p:96,l:41,g:145,t:"Palier 4 · jours 53 à 67 : −200 kcal."},
+p5:{k:1309,p:95,l:40,g:142,t:"Palier 5 · jours 68 à 82 : −225 kcal."},
+p6:{k:1284,p:95,l:39,g:138,t:"Palier 6 · plafond · à partir du jour 83, jusqu'à l'objectif : −250 kcal."}};
 function sim(k){var x=L[k];$('#kcal').textContent=x.k.toLocaleString('fr-FR');
 $('#bp').textContent=x.p+' g · '+Math.round(x.p*4/x.k*100)+' %';$('#fp').style.width=(x.p*4/x.k*100)+'%';
 $('#bg').textContent=x.g+' g · '+Math.round(x.g*4/x.k*100)+' %';$('#fg').style.width=(x.g*4/x.k*100)+'%';
@@ -977,43 +978,43 @@ sim('r');
 
 var R=[
 {t:"Jour 1",s:"Le déclic",h:"Prépare ta gourde et tes collations pour demain avant d'aller dormir.",m:[
-["8h","Petit-déjeuner","155 g skyr + 40 g flocons d'avoine + 115 g fruits rouges + 10 g amandes"],
-["13h","Déjeuner","130 g poulet cru + 60 g riz basmati cru + 190 g courgettes + 10 g huile d'olive"],
-["16h30","Collation","115 g fromage blanc + 1 pomme + 15 g noix"],
-["20h","Dîner","140 g cabillaud cru + 190 g pommes de terre + haricots verts + 10 g huile d'olive"]]},
+["8h","Petit-déjeuner","130 g skyr + 35 g flocons d'avoine + 100 g fruits rouges + 10 g amandes"],
+["13h","Déjeuner","110 g poulet cru + 55 g riz basmati cru + 165 g courgettes + 10 g huile d'olive"],
+["16h30","Collation","100 g fromage blanc + 1 pomme + 15 g noix"],
+["20h","Dîner","120 g cabillaud cru + 165 g pommes de terre + haricots verts + 10 g huile d'olive"]]},
 {t:"Jour 2",s:"Fraîcheur",h:"Un grand verre d'eau au réveil, avant le café.",m:[
-["8h","Petit-déjeuner","2 œufs brouillés + 40 g pain complet + 1 kiwi + 75 g fromage blanc"],
-["13h","Déjeuner","130 g dinde + 55 g quinoa cru + brocoli + 10 g huile d'olive + 1 orange"],
-["16h30","Collation","155 g skyr + 1 poire + 10 g graines de chia"],
-["20h","Dîner","115 g steak haché 5 % + 190 g patate douce + grande salade + 10 g huile d'olive"]]},
+["8h","Petit-déjeuner","2 œufs brouillés + 35 g pain complet + 1 kiwi + 65 g fromage blanc"],
+["13h","Déjeuner","110 g dinde + 50 g quinoa cru + brocoli + 10 g huile d'olive + 1 orange"],
+["16h30","Collation","130 g skyr + 1 poire + 10 g graines de chia"],
+["20h","Dîner","100 g steak haché 5 % + 165 g patate douce + grande salade + 10 g huile d'olive"]]},
 {t:"Jour 3",s:"Légèreté",h:"Sors marcher 15 minutes pendant ta pause, lumière du jour garantie.",m:[
-["8h","Petit-déjeuner","155 g yaourt grec 2 % + 40 g avoine + 1 banane + cannelle"],
-["13h","Déjeuner","140 g saumon cru + 60 g riz cru + épinards + citron"],
+["8h","Petit-déjeuner","130 g yaourt grec 2 % + 35 g avoine + 1 banane + cannelle"],
+["13h","Déjeuner","120 g saumon cru + 55 g riz cru + épinards + citron"],
 ["16h30","Collation","2 œufs durs + 1 pomme + 1 galette de riz"],
-["20h","Dîner","130 g poulet + 190 g pommes de terre + champignons poêlés + 10 g huile d'olive"]]},
+["20h","Dîner","110 g poulet + 165 g pommes de terre + champignons poêlés + 10 g huile d'olive"]]},
 {t:"Jour 4",s:"Mi-parcours",h:"Prends une photo de toi aujourd'hui. Tu seras contente de la retrouver dans 3 mois.",m:[
-["8h","Petit-déjeuner","155 g skyr + 40 g muesli sans sucre ajouté + 115 g fraises + 15 g amandes"],
-["13h","Déjeuner","120 g bœuf maigre 5 % + 55 g pâtes complètes crues + sauce tomate maison + courgettes"],
-["16h30","Collation","115 g fromage blanc + 1 kiwi + 15 g noix de cajou"],
-["20h","Dîner","140 g crevettes + 60 g riz cru + poêlée de poivrons + 10 g huile d'olive"]]},
+["8h","Petit-déjeuner","130 g skyr + 35 g muesli sans sucre ajouté + 100 g fraises + 15 g amandes"],
+["13h","Déjeuner","105 g bœuf maigre 5 % + 50 g pâtes complètes crues + sauce tomate maison + courgettes"],
+["16h30","Collation","100 g fromage blanc + 1 kiwi + 15 g noix de cajou"],
+["20h","Dîner","120 g crevettes + 55 g riz cru + poêlée de poivrons + 10 g huile d'olive"]]},
 {t:"Jour 5",s:"Confiance",h:"Mange assise, sans téléphone, au moins un repas aujourd'hui.",m:[
-["8h","Petit-déjeuner","2 œufs en omelette + 40 g pain au levain + 1 orange + 10 g beurre de cacahuète"],
-["13h","Déjeuner","130 g poulet + 60 g semoule complète crue + crudités + 10 g huile d'olive"],
-["16h30","Collation","155 g skyr + 75 g framboises + 15 g amandes"],
-["20h","Dîner","140 g colin + 190 g pommes de terre + brocoli"]]},
+["8h","Petit-déjeuner","2 œufs en omelette + 35 g pain au levain + 1 orange + 10 g beurre de cacahuète"],
+["13h","Déjeuner","110 g poulet + 55 g semoule complète crue + crudités + 10 g huile d'olive"],
+["16h30","Collation","130 g skyr + 65 g framboises + 15 g amandes"],
+["20h","Dîner","120 g colin + 165 g pommes de terre + brocoli"]]},
 {t:"Jour 6",s:"Week-end cadré",h:"Si tu sors, choisis une protéine et des légumes, et savoure le reste sans stress.",m:[
-["9h","Brunch maison","2 œufs + 45 g saumon fumé + 45 g pain complet + 1/2 avocat + 115 g fruits rouges"],
-["13h30","Déjeuner","130 g dinde + 55 g lentilles corail crues + carottes + salade"],
-["17h","Collation","155 g yaourt grec + 1 pomme + cannelle"],
-["20h","Dîner","Poke maison : 115 g thon + 60 g riz cru + concombre + edamame + 10 g sésame"]]},
+["9h","Brunch maison","2 œufs + 40 g saumon fumé + 40 g pain complet + 1/2 avocat + 100 g fruits rouges"],
+["13h30","Déjeuner","110 g dinde + 45 g lentilles corail crues + carottes + salade"],
+["17h","Collation","130 g yaourt grec + 1 pomme + cannelle"],
+["20h","Dîner","Poke maison : 100 g thon + 55 g riz cru + concombre + edamame + 10 g sésame"]]},
 {t:"Jour 7",s:"Ancrage",h:"Pèse-toi demain matin à jeun et note-le. Puis on fait le point ensemble.",m:[
-["9h","Petit-déjeuner","Porridge : 40 g avoine + 190 ml lait demi-écrémé + 1 banane + 15 g whey ou 115 g skyr"],
-["13h","Déjeuner","130 g poulet rôti + 190 g pommes de terre au four + haricots verts + 10 g huile d'olive"],
-["17h","Collation","115 g fromage blanc + 1 poire + 15 g noix"],
-["20h","Dîner","Soupe de légumes maison + 140 g cabillaud + 30 g pain complet + 10 g huile d'olive"]]}];
+["9h","Petit-déjeuner","Porridge : 35 g avoine + 165 ml lait demi-écrémé + 1 banane + 15 g whey ou 100 g skyr"],
+["13h","Déjeuner","110 g poulet rôti + 165 g pommes de terre au four + haricots verts + 10 g huile d'olive"],
+["17h","Collation","100 g fromage blanc + 1 poire + 15 g noix"],
+["20h","Dîner","Soupe de légumes maison + 120 g cabillaud + 25 g pain complet + 10 g huile d'olive"]]}];
 var rDone=store.get('rdone',{}),rCur=0;
 function drawR(){var d=$('#rdays');d.innerHTML='';R.forEach(function(x,i){var b=document.createElement('button');b.className='dbtn'+(i==rCur?' on':'')+(rDone[i]?' done':'');b.innerHTML='<small>JOUR</small>'+(i+1);b.onclick=function(){rCur=i;drawR()};d.appendChild(b)});
-var x=R[rCur],h='<div class="dayhead"><h3>'+x.t+' · '+x.s+'</h3><span class="tag">1 658 kcal</span></div>';
+var x=R[rCur],h='<div class="dayhead"><h3>'+x.t+' · '+x.s+'</h3><span class="tag">1 434 kcal</span></div>';
 x.m.forEach(function(m){h+='<div class="meal"><div class="h">'+m[0]+'</div><div><b>'+m[1]+'</b><span>'+m[2]+'</span></div></div>'});
 h+='<div class="habit"><b>Défi du jour :</b> '+x.h+'</div><button class="donebtn'+(rDone[rCur]?' ok':'')+'" id="rbtn">'+(rDone[rCur]?'Journée validée ✓':'Je valide ma journée')+'</button>';
 $('#rday').innerHTML=h;
@@ -1084,7 +1085,7 @@ var QB=["Quel fruit contient le moins de sucre ?|Fraises|Banane|Raisin|Mangue|0|
 "Les céréales sucrées du matin donnent souvent…|Faim vers 10 h|Beaucoup de protéines|Beaucoup de fibres|Rien de spécial|0|Pic de sucre, puis fringale.",
 "Chocolat noir 85 % : une portion raisonnable, c'est…|2 carrés|La tablette|10 carrés|Interdit|0|Environ 10 g, à savourer lentement.",
 "Pour une envie de sucré, le meilleur réflexe est…|Manger debout, vite|Manger assise, après un repas avec des protéines|Ne plus rien manger pendant 2 jours|Boire un soda|1|Tu en profites plus et tu en manges moins.",
-"Le déficit maximum de ton programme est…|−400 kcal|−1 000 kcal|−50 kcal|Il n'y a pas de limite|0|Même à ce palier, tu restes à 1 358 kcal, au-dessus de ton métabolisme.",
+"Le déficit maximum de ton programme est…|−250 kcal|−1 000 kcal|−50 kcal|Il n'y a pas de limite|0|Même à ce palier, tu restes à 1 284 kcal, au-dessus de ton métabolisme.",
 "Tes paliers descendent de…|50 kcal|500 kcal|1 000 kcal|300 kcal|0|De petites touches, jamais de coupe brutale.",
 "Si la perte ralentit, on commence par…|Supprimer des repas|Ajouter du mouvement|Arrêter les protéines|Boire moins|1|D'abord des pas ou une séance, ensuite l'assiette.",
 "Pourquoi une source de protéines à chaque repas ?|Pour protéger le muscle et rester rassasiée|Pour grossir|Ça ne sert à rien|Pour remplacer l'eau|0|Elles protègent ton muscle pendant le déficit.",
@@ -1132,7 +1133,7 @@ var QB=["Quel fruit contient le moins de sucre ?|Fraises|Banane|Raisin|Mangue|0|
 "Parler de tes difficultés à ta coach…|Aide à ajuster le programme|Est inutile|Est interdit|Fait perdre du temps|0|On avance ensemble.",
 "Le stress chronique peut…|Augmenter l'appétit et le ventre|Faire maigrir à coup sûr|N'avoir aucun effet|Remplacer le sport|0|Respiration, marche et sommeil sont tes alliés.",
 "Une affirmation positive répétée chaque jour…|Aide à construire une image de soi positive|Ne sert à rien|Fait grossir|Remplace les repas|0|Ce que tu te répètes finit par te construire.",
-"Quel est ton 1er repère de poids ?|59 kg|50 kg|62 kg|Aucun|0|59 kg, vers la fin du 2e mois, puis 58 kg et 57 kg.",
+"Quel est ton 1er repère de poids ?|59 kg|50 kg|62 kg|Aucun|0|59 kg, vers la fin du 3e mois, puis 58 kg et 57 kg.",
 "La meilleure version de toi, c'est…|Une Cynthia parfaite|Une Cynthia régulière et bienveillante avec elle-même|Une autre personne|Impossible|1|La bienveillance tient plus longtemps que la sévérité."];
 var QD=QB.map(function(s){var a=s.split('|'),f=a.pop(),ok=+a.pop();return{q:a[0],o:a.slice(1),ok:ok,f:f}});
 var QN=QD.length,PER=5,ord=sh(QN,Math.floor(DN*PER/QN)+1),pos=(DN*PER)%QN,TQ=[];for(var z=0;z<PER;z++)TQ.push(QD[ord[(pos+z)%QN]]);
@@ -1216,7 +1217,7 @@ function t(m){var el=$('#toast');el.textContent=m;el.classList.add('show');clear
 var DB="Skyr nature|63|11|4|0.2;Fromage blanc 0 %|46|7.5|4|0.1;Fromage blanc 3 %|75|7|4|3;Yaourt grec 2 %|73|10|4|2;Yaourt nature|60|4|5|2.5;Lait demi-écrémé (ml)|46|3.3|4.8|1.6;Boisson amande sans sucre (ml)|15|0.5|0.3|1.2;Œuf entier (pièce 60 g)|145|12.5|0.7|10|60;Blanc d'œuf|48|10.5|0.7|0.2;Whey (dose 30 g)|380|78|6|5|30;Mozzarella légère|165|20|1.5|9;Emmental|380|28|0|30;Parmesan|400|35|0|29;Fromage frais léger|120|8|4|8;Blanc de poulet cru|110|23|0|1.5;Blanc de dinde cru|107|24|0|1;Poulet rôti avec peau|215|25|0|13;Steak haché 5 % cru|125|21|0|5;Steak haché 15 % cru|215|18|0|15;Bœuf rumsteck cru|120|22|0|3.5;Jambon blanc découenné|110|20|1|3;Saucisse de volaille|190|14|3|13;Cabillaud cru|80|18|0|0.7;Colin cru|75|17|0|0.7;Saumon cru|200|20|0|13;Saumon fumé|180|22|0|10;Thon au naturel égoutté|110|25|0|1;Sardines à l'huile égouttées|210|24|0|13;Maquereau|200|19|0|14;Crevettes cuites|95|21|0|1;Tofu nature|120|12|2|7;Riz basmati cru|350|8|77|0.6;Riz basmati cuit|130|2.7|28|0.3;Riz complet cru|350|8|73|2.5;Pâtes complètes crues|340|13|64|2.5;Pâtes blanches crues|355|12|72|1.5;Pâtes cuites|150|5|30|0.9;Quinoa cru|365|14|60|6;Semoule complète crue|340|12|67|2;Flocons d'avoine|370|13|59|7;Muesli sans sucre ajouté|360|10|60|7;Granola|450|9|62|18;Pomme de terre crue|77|2|17|0.1;Patate douce crue|86|1.6|20|0.1;Lentilles crues|340|24|50|1.5;Lentilles cuites|115|9|17|0.4;Lentilles corail crues|340|24|52|1.5;Pois chiches cuits|140|8|18|2.5;Haricots rouges cuits|115|8|15|0.5;Edamame|120|11|7|5;Pain complet (tranche 35 g)|240|9|43|3|35;Pain au levain (tranche 35 g)|250|8.5|48|1.5|35;Baguette|270|9|55|1.5;Galette de riz (pièce 8 g)|380|8|80|3|8;Wrap complet (pièce 60 g)|300|9|48|7|60;Pomme (pièce 150 g)|52|0.3|12|0.2|150;Poire (pièce 170 g)|57|0.4|13|0.1|170;Banane (pièce 120 g)|90|1.1|20|0.3|120;Orange (pièce 150 g)|47|0.9|10|0.1|150;Clémentine (pièce 60 g)|47|0.8|10|0.2|60;Kiwi (pièce 75 g)|61|1.1|11|0.5|75;Fraises|32|0.7|6|0.3;Framboises|52|1.2|5|0.7;Myrtilles|57|0.7|12|0.3;Fruits rouges surgelés|45|1|7|0.3;Mangue|60|0.8|14|0.4;Ananas|50|0.5|11|0.1;Raisin|70|0.7|16|0.2;Melon|35|0.8|8|0.2;Pastèque|30|0.6|7|0.2;Pêche (pièce 150 g)|40|0.9|9|0.3|150;Abricot (pièce 40 g)|48|1.4|9|0.4|40;Compote sans sucre|55|0.3|12|0.1;Dattes (pièce 8 g)|280|2.5|66|0.4|8;Avocat|160|2|2|15;Salade verte|15|1.3|1.5|0.2;Épinards|23|2.9|1.4|0.4;Tomate|18|0.9|3|0.2;Concombre|12|0.7|2|0.1;Courgette|17|1.2|2.5|0.3;Brocoli|34|2.8|4|0.4;Chou-fleur|25|1.9|3|0.3;Haricots verts|31|1.8|4.5|0.2;Carotte|41|0.9|8|0.2;Poivron|26|1|5|0.3;Champignons|22|3|1|0.3;Aubergine|25|1|4|0.2;Petits pois|80|5.4|11|0.4;Maïs|90|3.3|16|1.3;Soupe de légumes maison (ml)|35|1|6|0.8;Ratatouille|60|1.2|6|3.5;Sauce tomate maison|45|1.5|7|1.2;Huile d'olive (c. à soupe 10 g)|900|0|0|100|10;Huile de colza (c. à soupe 10 g)|900|0|0|100|10;Beurre (noisette 10 g)|740|0.7|0.6|82|10;Graines de chia (c. à soupe 12 g)|490|17|8|31|12;Graines de lin moulues (c. à soupe 10 g)|530|18|2|42|10;Graines de courge (c. à soupe 15 g)|570|30|5|49|15;Graines de tournesol (c. à soupe 15 g)|580|21|12|51|15;Graines de sésame (c. à soupe 10 g)|575|18|12|50|10;Graines de chanvre décortiquées (c. à soupe 15 g)|570|32|3|49|15;Amandes (pièce 1,2 g)|600|21|8|52|1.2;Noix (cerneau 4 g)|690|15|7|65|4;Noisettes (pièce 1,5 g)|640|15|7|61|1.5;Noix de cajou (pièce 1,6 g)|580|18|27|44|1.6;Beurre de cacahuète 100 % (c. à café 10 g)|600|25|12|50|10;Chocolat noir 85 % (carré 5 g)|590|10|20|48|5;Sirop de yacon (c. à café 5 g)|260|0.4|65|0|5;Miel (c. à café 7 g)|320|0.3|80|0|7;Sucre (c. à café 5 g)|400|0|100|0|5;Stévia pure|0|0|0|0;Café noir (ml)|1|0.1|0|0;Jus d'orange (ml)|45|0.7|10|0.2;Soda (ml)|42|0|10.6|0;Vin rouge (ml)|85|0|2.6|0;Bière (ml)|43|0.5|3.6|0;Pizza jambon fromage|240|11|28|9;Burger classique (pièce 220 g)|250|13|25|11|220;Frites|290|3.5|37|14;Sushi saumon (pièce 30 g)|150|6|25|2.5|30;Croissant (pièce 60 g)|410|8|46|21|60;Pain au chocolat (pièce 70 g)|420|7.5|48|22|70;Chips|540|6|50|34;Biscuits sablés|480|6|68|20";
 var F=DB.split(';').map(function(r){var a=r.split('|');return{n:a[0],k:+a[1],p:+a[2],g:+a[3],l:+a[4],u:a[5]?+a[5]:0}});
 var C=g('custom',[]);F=F.concat(C);
-var J=g('journal',{}),FV=g('fav',[]),goal=g('goal',1658),meal=0,sel=null,off=0;
+var J=g('journal',{}),FV=g('fav',[]),goal=g('goal',1434),meal=0,sel=null,off=0;
 var MN=['Petit-déjeuner','Déjeuner','Collation','Dîner'];
 function key(o){var d=new Date();d.setDate(d.getDate()+o);return d.getFullYear()+'-'+('0'+(d.getMonth()+1)).slice(-2)+'-'+('0'+d.getDate()).slice(-2)}
 function tot(k){var r={k:0,p:0,g:0,l:0};(J[k]||[]).forEach(function(e){r.k+=e.k;r.p+=e.p;r.g+=e.g;r.l+=e.l});return r}
@@ -1237,7 +1238,7 @@ function draw(){var k=key(off),T=tot(k),d=new Date();d.setDate(d.getDate()+off);
 $('#ccdate').textContent=off==0?"Aujourd'hui":off==-1?'Hier':d.toLocaleDateString('fr-FR',{weekday:'long',day:'numeric',month:'long'});
 var left=goal-T.k,pc=Math.min(T.k/goal,1);$('#cceat').textContent=r0(T.k).toLocaleString('fr-FR');$('#ccleft').textContent=left>=0?r0(left).toLocaleString('fr-FR')+' kcal restantes':r0(-left)+' kcal au-dessus';
 var ring=$('#ccring');ring.style.strokeDashoffset=326.7*(1-pc);ring.style.stroke=left<0?'#c0392b':'';
-var PM={1658:[100,50,202],1608:[99,48,195],1558:[98,47,186],1508:[97,45,179],1458:[96,43,172],1408:[95,41,165],1358:[95,39,157],1758:[100,55,216]},pm=PM[goal],TP=pm?pm[0]:Math.round(goal*0.055),TL=pm?pm[1]:Math.round(goal*0.26/9),TG=pm?pm[2]:Math.round((goal-TP*4-TL*9)/4);
+var PM={1434:[100,45,157],1409:[99,44,154],1384:[98,43,151],1359:[97,42,148],1334:[96,41,145],1309:[95,40,142],1284:[95,39,138],1534:[100,50,171]},pm=PM[goal],TP=pm?pm[0]:Math.round(goal*0.055),TL=pm?pm[1]:Math.round(goal*0.26/9),TG=pm?pm[2]:Math.round((goal-TP*4-TL*9)/4);
 [['p',T.p,TP],['g',T.g,TG],['l',T.l,TL]].forEach(function(a){$('#cc'+a[0]).textContent=r0(a[1])+' / '+a[2]+' g';$('#cc'+a[0]+'f').style.width=Math.min(a[1]/a[2]*100,100)+'%'});
 var h='<h3>Mon journal</h3>',E=J[k]||[];MN.forEach(function(n,mi){var it=[],sum=0;E.forEach(function(e,i){if(e.m==mi){it.push([e,i]);sum+=e.k}});h+='<div class="ccm"><h4>'+n+'<span>'+r0(sum)+' kcal</span></h4>';if(!it.length)h+='<div class="cce"><span>Rien pour le moment</span></div>';it.forEach(function(a){h+='<div class="cce"><div>'+a[0].n+' · '+a[0].q+'</div><div><span>'+r0(a[0].k)+' kcal</span><button data-i="'+a[1]+'">×</button></div></div>'});h+='</div>'});
 var c=$('#ccdays');c.innerHTML=h;c.querySelectorAll('button[data-i]').forEach(function(b){b.onclick=function(){J[k].splice(+b.dataset.i,1);s('journal',J);draw()}});
